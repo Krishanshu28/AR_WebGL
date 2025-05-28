@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void RemoteContentLoader_Start_m649592869B31A61EAACFC2A39D33E5ACBFE021E8 (void);
+extern void RemoteContentLoader_OnDestroy_m280FFDB9FA30E7C07491A58D75062B90607AF1E0 (void);
+extern void RemoteContentLoader_OnImageFound_mD2EC883E73FC26400CB4EB358D5BC0ABFE612FDB (void);
+extern void RemoteContentLoader_OnImageLost_mAB45F38D2D4430167F2C43C7C52D61B6306DE03A (void);
+extern void RemoteContentLoader_DownloadJSON_mC51FDA7113C02A4ED12AFB02C79D171B1C2B903D (void);
+extern void RemoteContentLoader_DownloadAndLoadModel_m512F72EC656BF20D081A4467EF3FC5CB15431ED5 (void);
+extern void RemoteContentLoader__ctor_m499F4B7FE76CC0CF74B7E957D5F6BF7A25C5D7AD (void);
+extern void ARContentData__ctor_mBF0583A835BED77533B7C6F242B7232BC49E44D9 (void);
+extern void U3CDownloadAndLoadModelU3Ed__13__ctor_m4E2189A4C02EE9B49691170BA8CF478F152E1056 (void);
+extern void U3CDownloadAndLoadModelU3Ed__13_System_IDisposable_Dispose_m02202CB983A071E9D6B01099B14F52830275C990 (void);
+extern void U3CDownloadAndLoadModelU3Ed__13_MoveNext_mDFF9CE65BE67716322C40C3E6CD72F5588D4407E (void);
+extern void U3CDownloadAndLoadModelU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82A2B8B4E3D92CC11EB1A366BC3A6824E26D31CC (void);
+extern void U3CDownloadAndLoadModelU3Ed__13_System_Collections_IEnumerator_Reset_m26843DA495ED5AB28260E18A36806D992FE4B193 (void);
+extern void U3CDownloadAndLoadModelU3Ed__13_System_Collections_IEnumerator_get_Current_m88393B2BB40A6B0EC439831F6B063CF6408FEFD7 (void);
+extern void U3CDownloadJSONU3Ed__12__ctor_m6F8E53441BC28E04BFD6AE1F49424D1807F7321F (void);
+extern void U3CDownloadJSONU3Ed__12_System_IDisposable_Dispose_m6E347CA952175BA631163BD47EF972472468BCD8 (void);
+extern void U3CDownloadJSONU3Ed__12_MoveNext_m4CADCB1B70617B83BA5E49DDACC47E62D5E8600B (void);
+extern void U3CDownloadJSONU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD6B4D224CB943A4B51EBCB125D3E868C170DE238 (void);
+extern void U3CDownloadJSONU3Ed__12_System_Collections_IEnumerator_Reset_m5303E0E5E0F360E162BD830E142D4CEABFFD5CAC (void);
+extern void U3CDownloadJSONU3Ed__12_System_Collections_IEnumerator_get_Current_mCFA24DCD2F8BE12917850BFE8C6FE2ACBD44C1DA (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	RemoteContentLoader_Start_m649592869B31A61EAACFC2A39D33E5ACBFE021E8,
+	RemoteContentLoader_OnDestroy_m280FFDB9FA30E7C07491A58D75062B90607AF1E0,
+	RemoteContentLoader_OnImageFound_mD2EC883E73FC26400CB4EB358D5BC0ABFE612FDB,
+	RemoteContentLoader_OnImageLost_mAB45F38D2D4430167F2C43C7C52D61B6306DE03A,
+	RemoteContentLoader_DownloadJSON_mC51FDA7113C02A4ED12AFB02C79D171B1C2B903D,
+	RemoteContentLoader_DownloadAndLoadModel_m512F72EC656BF20D081A4467EF3FC5CB15431ED5,
+	RemoteContentLoader__ctor_m499F4B7FE76CC0CF74B7E957D5F6BF7A25C5D7AD,
+	ARContentData__ctor_mBF0583A835BED77533B7C6F242B7232BC49E44D9,
+	U3CDownloadAndLoadModelU3Ed__13__ctor_m4E2189A4C02EE9B49691170BA8CF478F152E1056,
+	U3CDownloadAndLoadModelU3Ed__13_System_IDisposable_Dispose_m02202CB983A071E9D6B01099B14F52830275C990,
+	U3CDownloadAndLoadModelU3Ed__13_MoveNext_mDFF9CE65BE67716322C40C3E6CD72F5588D4407E,
+	U3CDownloadAndLoadModelU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82A2B8B4E3D92CC11EB1A366BC3A6824E26D31CC,
+	U3CDownloadAndLoadModelU3Ed__13_System_Collections_IEnumerator_Reset_m26843DA495ED5AB28260E18A36806D992FE4B193,
+	U3CDownloadAndLoadModelU3Ed__13_System_Collections_IEnumerator_get_Current_m88393B2BB40A6B0EC439831F6B063CF6408FEFD7,
+	U3CDownloadJSONU3Ed__12__ctor_m6F8E53441BC28E04BFD6AE1F49424D1807F7321F,
+	U3CDownloadJSONU3Ed__12_System_IDisposable_Dispose_m6E347CA952175BA631163BD47EF972472468BCD8,
+	U3CDownloadJSONU3Ed__12_MoveNext_m4CADCB1B70617B83BA5E49DDACC47E62D5E8600B,
+	U3CDownloadJSONU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD6B4D224CB943A4B51EBCB125D3E868C170DE238,
+	U3CDownloadJSONU3Ed__12_System_Collections_IEnumerator_Reset_m5303E0E5E0F360E162BD830E142D4CEABFFD5CAC,
+	U3CDownloadJSONU3Ed__12_System_Collections_IEnumerator_get_Current_mCFA24DCD2F8BE12917850BFE8C6FE2ACBD44C1DA,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	5641,
+	5641,
+	5641,
+	5641,
+	5525,
+	4044,
+	5641,
+	5641,
+	4546,
+	5641,
+	5439,
+	5525,
+	5641,
+	5525,
+	4546,
+	5641,
+	5439,
+	5525,
+	5641,
+	5525,
+	8294,
+	5641,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
